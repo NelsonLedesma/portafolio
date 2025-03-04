@@ -1,12 +1,25 @@
 
-
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body{
    background-color: #000000;
    color: #f6f6f6; 
+   height: 100vh;
+   box-sizing: border-box;
 }
 
-strong{
+.titulo_destaque{
     color: #22d4fd;
 
 }
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    justify-content: space-between;
+}
+   
